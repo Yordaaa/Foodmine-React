@@ -25,7 +25,7 @@ function Header() {
               <div className="menu">
                 <Link to="/profile">Profile</Link>
                 <Link to="/orders">orders</Link>
-                <a onClick={logout}>Logout</a>
+                <a href onClick={logout}>Logout</a>
               </div>
             </li>
             ):(<Link to="/login">Login</Link>

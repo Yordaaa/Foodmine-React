@@ -13,7 +13,7 @@ function Header() {
     <header className="header">
       <div className="container">
         <Link to="/" className="logo">
-          Food Mine!
+          Samri FastFood!
         </Link>
         <nav>
           <ul>{
